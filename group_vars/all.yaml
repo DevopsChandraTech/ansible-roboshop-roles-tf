@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.devaws.shop
-REDIS_HOST: redis.devaws.shop
-CATALOGUE_HOST: catalogue.devaws.shop
-CART_HOST: cart.devaws.shop
-USER_HOST: user.devaws.shop
-RABBITMQ_HOST: rabbitmq.devaws.shop
-MYSQL_HOST: mysql.devaws.shop
-SHIPPING_HOST: shipping.devaws.shop
-PAYMENT_HOST: payment.devaws.shop
+MONGODB_HOST: mongodb-{{ env }}.devaws.shop
+REDIS_HOST: redis-{{ env }}.devaws.shop
+CATALOGUE_HOST: catalogue-{{ env }}.devaws.shop
+CART_HOST: cart-{{ env }}.devaws.shop
+USER_HOST: user-{{ env }}.devaws.shop
+RABBITMQ_HOST: rabbitmq-{{ env }}.devaws.shop
+MYSQL_HOST: mysql-{{ env }}.devaws.shop
+SHIPPING_HOST: shipping-{{ env }}.devaws.shop
+PAYMENT_HOST: payment-{{ env }}.devaws.shop
